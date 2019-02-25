@@ -19,6 +19,10 @@ import { NavbarComponent } from './app/components/shared/navbar/navbar.component
 import { HomeComponent } from './app/components/home/home.component';
 import { AboutComponent } from './app/components/about/about.component';
 import { HeroesComponent } from './app/components/heroes/heroes.component';
+import { HeroeComponent } from './app/components/heroe/heroe.component';
+import { BuscadorComponent } from './app/components/buscador/buscador.component';
+
+
 
 
 
@@ -28,7 +32,11 @@ import { HeroesComponent } from './app/components/heroes/heroes.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroeComponent,
+    BuscadorComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
