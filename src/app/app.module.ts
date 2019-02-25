@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Servicios
-
+import { HeroesService } from './app/services/heroes.service';
 
 
 
@@ -34,7 +34,11 @@ import { HeroesComponent } from './app/components/heroes/heroes.component';
     BrowserModule,
     app_routing
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    HeroesService
+    ],
+  bootstrap: [
+    AppComponent
+    ]
 })
 export class AppModule { }
