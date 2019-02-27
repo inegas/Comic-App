@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-heroe-detalles',
@@ -9,15 +10,19 @@ export class HeroeDetallesComponent implements OnInit {
 
   @Input() heroe:any = {};
   @Input() index:number;
+  @Output() heroefinded: EventEmitter<number>;
 
-  constructor() { }
+  constructor(private route:Router) {
+    this.heroefinded = new EventEmitter();
+   }
 
   ngOnInit() {
   }
 
   verHeroe(){
-    console.log(this.index);
-    
+    // console.log(this.index);
+    // this.route.navigate(['/heroe', this.index]);
+    this.heroefinded.emit(this.index);
   }
 
 }
