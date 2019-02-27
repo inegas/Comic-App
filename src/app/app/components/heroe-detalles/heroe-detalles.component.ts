@@ -21,8 +21,8 @@ export class HeroeDetallesComponent implements OnInit {
 
   verHeroe(){
     // console.log(this.index);
-    // this.route.navigate(['/heroe', this.index]);
-    this.heroefinded.emit(this.index);
+    this.route.navigate(['/heroe', this.index]);
+    //this.heroefinded.emit(this.index);
   }
 
 }
