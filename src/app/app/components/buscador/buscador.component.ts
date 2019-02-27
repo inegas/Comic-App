@@ -26,4 +26,7 @@ export class BuscadorComponent implements OnInit {
     })
   }
 
+  volver(){
+    this.route.navigate(['/heroes']);
+  }
 }
