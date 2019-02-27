@@ -5,12 +5,8 @@ import { NgModule } from '@angular/core';
 import { HeroesService } from './app/services/heroes.service';
 
 
-
 // Rutas
 import { app_routing } from './app/app.routes';
-
-
-
 
 
 // Componentes
@@ -21,6 +17,8 @@ import { AboutComponent } from './app/components/about/about.component';
 import { HeroesComponent } from './app/components/heroes/heroes.component';
 import { HeroeComponent } from './app/components/heroe/heroe.component';
 import { BuscadorComponent } from './app/components/buscador/buscador.component';
+import { HeroeDetallesComponent } from './app/components/heroe-detalles/heroe-detalles.component';
+
 
 
 
@@ -35,6 +33,8 @@ import { BuscadorComponent } from './app/components/buscador/buscador.component'
     HeroesComponent,
     HeroeComponent,
     BuscadorComponent,
+    HeroeDetallesComponent,
+    
     
     
   ],

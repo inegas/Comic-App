@@ -46,3 +46,13 @@ body {
 .img-logo{
   width: 80px;
 }
+.btnnavbar{
+  background: none;
+  border: none;
+  color: #DBDBE3;
+  cursor: pointer;
+  
+}
+.btnnavbar:focus {
+outline: 0;
+}
