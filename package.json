@@ -1,11 +1,11 @@
 {
-  "name": "comic",
+  "name": "Comic",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --o",
-    "build": "ng build --prod --output-path docs --base-href /comic-app/",
+    "build": "ng build --prod --output-path docs --base-href /Comic-app/",
     "postbuild": "mv docs/index.html docs/404.html",
     "test": "ng test",
     "lint": "ng lint",
